@@ -1,0 +1,64 @@
+.Signup-container {
+    display: block;
+}
+
+.Title-login {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.Input-container {
+    display: inline-flex;
+    margin: 10px;
+}
+
+.Text-input {
+    background-color: white;
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.Login-nav-button {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    margin: 10px 5px 10px 10px;
+    align-content: center;
+    text-align: center;
+}
+
+.Series-container {
+    display: inline-flex;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.Active-circle {
+    background-color: #3a3238;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    align-content: center;
+    text-align: center;   
+}
+
+.Inactive-circle {
+    background-color: #6e4555;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    align-content: center;
+    text-align: center;   
+}

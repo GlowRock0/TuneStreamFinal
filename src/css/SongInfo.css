@@ -1,0 +1,197 @@
+.Song-info-container {
+    display: inline-flex;
+    background-color: #3a3238;
+    height: 250px;
+    width: 1080px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Song-left-container {
+    height: 250px;
+    display: inline;
+}
+
+.Song-bar-container {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.Song-bar {
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    width: 650px;
+    height: 3px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.Song-info-player {
+    display: flex;
+    margin: 20px 20px 140px 20px;
+}
+
+.Play-button {
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    align-content: center;
+    text-align: center;
+}
+
+.Song-info-title {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.Artist-info-name {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.Song-cover-prev {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 230px;
+    width: 230px;
+    margin: 10px 10px 10px 33px;
+    text-align: center;
+    align-content: center;
+}
+
+.Song-lower-container {
+    height: 220px;
+    display: flex;
+}
+
+.Song-left-lower-container {
+    display: block;
+    background-color: #3a3238;
+    border-radius: 10px;
+    height: 220px;
+    width: 830px;
+    margin: 10px;
+}
+
+.Post-comment-contatiner {
+    display: flex;
+}
+
+.Write-comment {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 45px;
+    width: 750px;
+    padding-left: 10px;
+    margin: 10px 0px 10px 8px;
+    text-align: left;
+    align-content: center;
+}
+
+.Comment-section {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 130px;
+    width: 810px;
+    padding-bottom: 10px;
+}
+
+.Comment-section::-webkit-scrollbar {
+    display: none;
+}
+
+.Comment-container {
+    display: flex;
+    height: 60px;
+    width: 810px;
+    margin: 10px; 
+}
+
+.Comment-icon {
+    background-color: #6e4555;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    align-content: center;
+}
+
+.Comment-content {
+    display: block;
+}
+
+.Comment-timestamp {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;   
+}
+
+.Comment-text {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;   
+}
+
+.Song-right-lower-container {
+    overflow-y: scroll;
+    display: block;
+    height: 220px;
+    width: 240px;
+    margin: 10px 10px 0px 0px;
+}
+
+.Song-right-lower-container::-webkit-scrollbar {
+    display: none;
+}
+
+.Mini-song-card {
+    display: flex;
+    background-color: #3a3238;;
+    border-radius: 10px;
+    height: 70px;
+    width: 230px;
+    margin-bottom: 5px;   
+    padding-left: 10px;
+}
+
+.Mini-song-cover-prev {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.Mini-song-title {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;  
+    padding-top: 15px;   
+}
+
+.Mini-artist-name {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;   
+    padding-top: 5px; 
+}
+
